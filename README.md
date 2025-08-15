@@ -123,7 +123,7 @@ resume-analyzer/
 ├── backend/
 │ ├── main.py # FastAPI application
 │ ├── LLM.py # AI model integration
-│ ├── RAG.py # Document processing
+│ ├── parse.py # Document processing
 │ ├── requirements.txt # Python dependencies
 │ └── uploads/ # Uploaded files storage
 ├── frontend/
