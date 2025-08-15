@@ -1,0 +1,42 @@
+# backend/requirements.txt
+
+# FastAPI and ASGI server
+fastapi
+uvicorn[standard]
+
+# Environment variables
+python-dotenv
+
+# Pydantic for data validation (used by FastAPI and LangChain models)
+pydantic
+
+# LangChain Core components
+langchain-core
+
+langchain_community
+
+langchain_huggingface
+
+langchain_experimental
+
+# LangChain integrations for LLMs (OpenRouter is OpenAI-compatible)
+langchain-openai
+
+# LangGraph for building the agentic workflow
+langgraph
+
+
+# Stability AI SDK for image and video generation
+#stability-sdk
+#grpcio # Dependency for stability-sdk
+#grpcio-tools # Dependency for stability-sdk
+
+# Utilities (used in multiLLM.py)
+cachetools
+tenacity
+
+python-multipart
+
+pypdf
+
+
